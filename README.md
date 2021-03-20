@@ -11,7 +11,7 @@ import {NetUserGetInfo} from 'user-info'
 const userInfo = NetUserGetInfo({
     /**serverName:string, use local as default.*/
     userName:"Administrator",
-    /**level:number, @seealso (bingding.ts)[lib\binding.ts]*/
+    /**level:number, @seealso [bingding.ts](lib\binding.ts)*/
 })
 /**
  * result should be :{name:"Administrator"}
@@ -22,4 +22,4 @@ const userInfo = NetUserGetInfo({
 const currentUserInfo = NetUserGetInfoOfCurrentUser()
 
 ```
-See documents of (NetUserGetInfo)[https://docs.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusergetinfo] for more information.
+See documents of [NetUserGetInfo](https://docs.microsoft.com/en-us/windows/win32/api/lmaccess/nf-lmaccess-netusergetinfo) for more information.
